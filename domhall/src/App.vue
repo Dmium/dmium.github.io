@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="bg-dark-gray">
+  <div id="app">
     <!--<div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -10,7 +10,11 @@
 </template>
 
 <style lang="scss">
+
 #app {
-    background-color: #343a40
+    background-color: #043a40;
+}
+#body {
+    background:  #043a40;
 }
 </style>
