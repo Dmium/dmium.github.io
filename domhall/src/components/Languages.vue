@@ -1,6 +1,6 @@
 <template>
     <b-jumbotron bg-variant="dark" text-variant="light">
-        <template v-slot:header>Programming Languages</template>
+        <h1>Programming Languages</h1>
         <hr/>
         Experienced
         <br/>

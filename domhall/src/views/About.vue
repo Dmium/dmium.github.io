@@ -13,7 +13,7 @@
         </template>
         <hr>
         <p>
-            Currently availible to work starting July 2020
+            Currently available to work starting July 2020
         </p>
     </b-jumbotron>
     <Languages/>
