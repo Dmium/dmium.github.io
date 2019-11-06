@@ -17,6 +17,7 @@
         </p>
     </b-jumbotron>
     <Languages/>
+    <Technologies/>
     <Contact/>
   </div>
 </template>
@@ -26,12 +27,14 @@
 // @ is an alias to /src
 import Contact from '@/components/Contact.vue'
 import Languages from '@/components/Languages.vue'
+import Technologies from '@/components/Technologies.vue'
 
 export default {
   name: 'about',
   components: {
     Contact,
-    Languages
+    Languages,
+    Technologies
   }
 }
 </script>
