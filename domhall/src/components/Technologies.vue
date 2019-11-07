@@ -2,9 +2,7 @@
     <b-jumbotron bg-variant="dark" text-variant="light">
         <h1>Technologies</h1>
         <hr/>
-        <b-row>
-        <b-col cols="4"/>
-        <b-col cols="2">
+        <b-card-group deck>
         <b-card bg-variant="secondary" header="Experienced">
         Flask
         <br/>
@@ -16,8 +14,6 @@
         <br/>
         <font-awesome-icon :icon="['fab', 'git']"/>Git
         </b-card>
-        </b-col>
-        <b-col cols="2">
         <b-card bg-variant="secondary" header="Learning/Some Experience">
         MongoDB
         <br/>
@@ -27,8 +23,6 @@
         <br/>
         Postman
         </b-card>
-        </b-col>
-        <b-col cols="2"/>
-        </b-row>
+        </b-card-group>
     </b-jumbotron>
 </template>
