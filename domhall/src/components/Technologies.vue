@@ -2,7 +2,7 @@
     <b-jumbotron bg-variant="dark" text-variant="light">
         <h1>Technologies</h1>
         <hr/>
-        <b-card-group deck>
+        <b-card-group deck style="max-width: 800px;margin: auto;">
         <b-card bg-variant="secondary" header="Experienced">
         Flask
         <br/>

@@ -3,8 +3,8 @@
         <h1>Programming Languages</h1>
         <hr/>
         <b-container>
-        <b-card-group deck>
-        <b-card bg-variant="secondary" header="Experienced" style="max-width: 300px;">
+        <b-card-group deck style="max-width: 800px;margin: auto">
+        <b-card bg-variant="secondary" header="Experienced">
         <b-card-text>
         <font-awesome-icon :icon="['fab', 'python']"/> Python
         <br/>
@@ -20,7 +20,7 @@
         <br/>
         </b-card-text>
         </b-card>
-        <b-card bg-variant="secondary" header="Learning/Some Experience" style="max-width: 300px;">
+        <b-card bg-variant="secondary" header="Learning/Some Experience">
         Elixir
         <br/>
         <font-awesome-icon :icon="['fab', 'html5']"/> HTML
