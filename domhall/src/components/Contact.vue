@@ -3,7 +3,7 @@
         <b-row>
         <b-col cols="5"/>
         <b-col>
-        <b-card bg-variant="dark" header="Contact">
+        <b-card bg-variant="dark" header="Contact" border-variant="light">
         <br/>
         <a href="https://github.com/Dmium/"> <font-awesome-icon :icon="['fab', 'github']"/> GitHub </a>
         <br/>
