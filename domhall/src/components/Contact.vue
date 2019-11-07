@@ -4,7 +4,6 @@
         <b-col cols="5"/>
         <b-col>
         <b-card bg-variant="dark" header="Contact" border-variant="light">
-        <br/>
         <a href="https://github.com/Dmium/"> <font-awesome-icon :icon="['fab', 'github']"/> GitHub </a>
         <br/>
         <a href="https://www.linkedin.com/in/dominiczyhall/"> <font-awesome-icon :icon="['fab', 'linkedin']"/> LinkedIn </a>
