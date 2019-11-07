@@ -2,8 +2,10 @@
     <b-jumbotron bg-variant="dark" text-variant="light">
         <h1>Programming Languages</h1>
         <hr/>
-        Experienced
-        <br/>
+        <b-row>
+        <b-col cols="4"/>
+        <b-col cols="2">
+        <b-card bg-variant="secondary" header="Experienced">
         <font-awesome-icon :icon="['fab', 'python']"/> Python
         <br/>
         <font-awesome-icon :icon="['fab', 'java']"/> Java
@@ -16,9 +18,10 @@
         <br/>
         <font-awesome-icon :icon="['fas', 'brain']"/> BrainFuck
         <br/>
-        <hr/>
-        Learning/Some Experience
-        <br/>
+        </b-card>
+        </b-col>
+        <b-col cols="2">
+        <b-card bg-variant="secondary" header="Learning/Some Experience">
         Elixir
         <br/>
         <font-awesome-icon :icon="['fab', 'html5']"/> HTML
@@ -30,5 +33,9 @@
         c
         <br/>
         Haskell
+        </b-card>
+        </b-col>
+        <b-col cols="2"/>
+        </b-row>
     </b-jumbotron>
 </template>
