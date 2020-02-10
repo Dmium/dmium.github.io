@@ -12,7 +12,7 @@
         </template>
         <hr>
         <p>
-            Currently available to work starting July 2020
+            Currently available to work starting August 2020
         </p>
     </b-jumbotron>
 </template>
