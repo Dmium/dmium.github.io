@@ -1,8 +1,7 @@
 <template>
     <b-jumbotron bg-variant="dark" text-variant="light">
-        <b-row>
-        <b-col cols="5"/>
-        <b-col>
+
+        <b-container max-width="10%">
         <b-card bg-variant="dark" header="Contact" border-variant="light">
         <a href="https://github.com/Dmium/"> <font-awesome-icon :icon="['fab', 'github']"/> GitHub </a>
         <br/>
@@ -12,8 +11,7 @@
         <hr>
         <a href="./files/CV.pdf" download>CV Download</a>
         </b-card>
-        </b-col>
-        <b-col cols="5"/>
-        </b-row>
+
+        </b-container>
     </b-jumbotron>
 </template>
